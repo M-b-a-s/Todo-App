@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App | Todo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- Header Section -->
+      <header class="header">
+        <div class="title">
+          <h1>To-Do</h1>
+          <img src="/Todo-App/images/circle-check-solid.svg" alt="" />
+        </div>
+      </header>
+
+      <!-- Todos -->
+      <div class="todo-lists" id="todo-lists">
+        <ul class="todos" id="todos">
+          <li class="todo">
+            <span>
+                Your todos will appear below .👇🏽
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Add todos -->
+
+      <div class="addTodo">
+        <input
+          type="text"
+          placeholder="Enter a todo..."
+          class="todo-text"
+          id="todo-text"
+        />
+        <button class="add-btn" id="add-btn">
+          <img src="/Todo-App/images/plus-solid.svg" alt="plus icon" />
+        </button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
